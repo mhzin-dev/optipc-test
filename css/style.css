@@ -1,0 +1,160 @@
+body, p, h1, h2, h3{
+    margin: 0;
+    padding-top: 20px;
+    font-family: bold, sans-serif;
+}
+
+body{
+    background-color: rgb(22, 21, 21);
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 30px
+}
+
+#navbar{
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar-list span{
+    color: rgba(244,81,71);
+}
+
+#navbar ul, #navbar-list li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar img{
+    margin: 20px;
+    padding: 0 25px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav{
+    float: right;
+}
+  
+  #navbar li {
+    margin: 0 10px;
+  }
+  
+  #navbar-list li a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bolder;
+  }
+  
+  #navbar-list li a:hover {
+    border-bottom: 1px solid #FFF;
+  }
+
+  #meio-info {
+    text-align: left;
+    color: #FFF;
+    padding: 50px;
+  }
+
+  #meio-info h1{
+    font-weight: 800;
+    color: #d3cfc9;;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 75px;
+    width: 600px;
+    padding: 10px;
+    line-height: 4.2rem;
+    letter-spacing: -.025em;
+  }
+
+  span{
+    color: rgba(244,81,71);
+  }
+
+  #meio-info p {
+    margin-right: auto;
+    margin-left: -10;
+    width: 600px;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  
+  #buttom{
+    padding: 30px 5px;
+    text-decoration: none;
+  }
+
+  #buttom a:hover{
+    cursor: pointer;
+    background-color:rgb(216, 141, 27);
+  }
+
+  #meio-info #buttom .botao{
+    background-color: #181a1b;
+    color: #ff5a1f;
+  }
+
+  #meio-info #buttom .botao:hover{
+    color: #2b6cb0;
+    background-color: #1d1d1c;
+  }
+
+  #meio-info a{
+    background-color: #ad3e15;
+    margin-right: 5px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+
+
+  #about-section{
+    text-align: center;
+    color: #fff;
+    padding-top: 90px;
+    height: 350px;
+    background-color: #ED1E24;
+  }
+
+  #about-section h2{
+    margin-bottom: 20px;
+  }
+
+  #about-section p{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+  }
+
+  footer{
+    padding: 50px 0;
+    color: #FFF;
+    text-align: center;
+  }
+
+  footer .detail{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  #meio-info h1{
+    width: 450px;
+  }
+
+  #meio-info p{
+    width: 400px;
+  }
+}
